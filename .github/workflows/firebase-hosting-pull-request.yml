@@ -18,9 +18,9 @@ jobs:
           REACT_APP_MESSAGING_SENDER_ID: ${{ secrets.REACT_APP_MESSAGING_SENDER_ID }}
           REACT_APP_APP_ID: ${{ secrets.REACT_APP_APP_ID }}
       - uses: actions/checkout@v2
-        - run: npm start
+      - run: npm start
       - uses: FirebaseExtended/action-hosting-deploy@v0
-          - run: npm start
+      - run: npm start
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_LETMEASK_974B6 }}'
