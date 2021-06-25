@@ -10,14 +10,10 @@
   <a href="#-licença">Licença</a>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=NLW&message=04&color=8257E5&labelColor=000000" alt="NLW 05" />
-</p>
-
 <br>
 
 <p align="center">
-  <img alt="Happy" src="../src/assets/images/logo.svg" width="100%">
+  <img alt="Happy" src=".github/home.png" width="100%">
 </p>
 
 ## ✨ Tecnologias
@@ -25,29 +21,25 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [React](https://reactjs.org)
-- [Next.js](https://nextjs.org/)
+- [Firebase](https://console.firebase.google.com)
 - [TypeScript](https://www.typescriptlang.org/)
 
 ## 💻 Projeto
 
-O move.it é um app que une a técnica de Pomodoro com a realização de exercícios físicos para quem passa muito tempo na frente do computador.
+O Letmeask é um app que da ao usuário o poder de criar salas e ficar debatente sobre um determinado assunto. 
+A parte legal é que todos podem criar salas e responder, sem contar também a opção de dar likes nas perguntas legais
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/ge20pu3ofMOKoliUyKx1Nl/Move.it-1.0). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
+Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/EwBAzVgGVfs0ChDJ0Gyt7N/Letmeask-Copy?fuid=829850908544822971). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
 
 ## 🚀 Como executar
 
 - Clone o repositório
 - Instale as dependências com `yarn`
+- Você precisa criar uma conta no [Firebase](https://firebase.google.com/)
 - Inicie o servidor com `yarn dev`
 
-Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
+Depois acessar [`localhost:3000`](http://localhost:3000)
 
-## 📄 Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
----
-
-Feito com ♥ by Rocketseat 👋🏻 [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Esse projeto foi publicado e você pode acessar aqui [Letmeask](https://letmeask-974b6.web.app)
