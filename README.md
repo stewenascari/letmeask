@@ -31,11 +31,11 @@ A parte legal é que todos podem criar salas e responder, sem contar também a o
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/EwBAzVgGVfs0ChDJ0Gyt7N/Letmeask-Copy?fuid=829850908544822971). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
+Você pode visualizar o layout do projeto nesse link => [letmask Layout](https://www.figma.com/file/EwBAzVgGVfs0ChDJ0Gyt7N/Letmeask-Copy?fuid=829850908544822971). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
 
 ## 🚀 Como executar
 
-- Clone o repositório
+- Clone o repositório ou baixe
 - Instale as dependências com `yarn`
 - Você precisa criar uma conta no [Firebase](https://firebase.google.com/)
 - Inicie o servidor com `yarn dev`
