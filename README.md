@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="letmeask" title="move.it" src="../src/assets/images/logo.svg" />
+  <img alt="letmeask" title="Letmeask" src=".github/logo.png" />
 </h1>
 
 <p align="center">
