@@ -28,12 +28,7 @@ export function NewRoom() {
             authorId: user?.id
         })
 
-        const roomKey = await database.ref(`rooms/${firebaseRoom.key}`).get();
-        if(roomKey.val().authorId === user?.id){
-            history.push(`/admin/rooms/${firebaseRoom.key}`)
-        } else {
-            history.push(`/rooms/${firebaseRoom.key}`)
-        }
+        history.push(`/admin/rooms/${firebaseRoom.key}`)
     }
 
     return (
